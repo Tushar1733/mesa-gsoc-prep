@@ -1,3 +1,3 @@
 # mesa-gsoc-prep
 Audits, technical notes, and architectural planning related to Mesa ecosystem improvements for Google Summer of Code.
-![Workflow Diagram](.Plan\workflow.png)
+![Workflow Diagram](workflow.png)
