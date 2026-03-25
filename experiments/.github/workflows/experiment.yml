@@ -19,6 +19,14 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Install dependencies
+      - name: Install native dependencies
         run: |
           pip install os
+
+      - name: Run Dependency collector
+        run: | 
+          python dep_collector.py
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
